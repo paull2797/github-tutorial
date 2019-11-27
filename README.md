@@ -15,14 +15,14 @@ Before you start using Github, you have to create an account. Go to [Github](htt
 ---
 ## Repository Setup
 
-In order to start using git, you first have to do "git init", which turns the directory into a repository. You only have to do this once. After any changes, you do "git add ." to add the changes to the stage. Then, you do "git commit -m "(message)" " to take a screenshot of the files on stage. Before you can push your changes to Github, you need to set up a remote. Follow the steps below.
+In order to start using git, you first have to do "git init", which turns the directory into a repository. You only have to do this once. Before you can push your changes to Github, you need to set up a remote. Follow the steps below.
   
-1.  Go to [Github](github.com) 
-2.  Select your repo
+1. Go to [Github](github.com) 
+2. Select your repo
 3. Select clone and download
 4. Make sure it says "Clone with SSH" (to change click use SSH)
-5. Copy the link
-6. Do "git remote add origin (URL) "
+5. Copy the link and go back to your IDE
+6. Do "git remote add origin (URL) " (The URL should be the link from step 5)
 7. Do "git push -u origin master"
 8. Afterwards, you only have to do "git push" to push your changes.
 ---
@@ -30,7 +30,7 @@ In order to start using git, you first have to do "git init", which turns the di
 
 * Use git status to see which files that changed since the last commit
 * Use "git add ." to add changes you made to the stage, which allows you to commit it.
-* Use "git commit -m "(message)" " to take a screenshot of the files on stage. The message is used to find the commit. Make sure the message describes what the screenshot is about
+* Use "git commit -m "(message)" " to take a screenshot of the files on stage. The message is used to find the commit. Make sure the message describes what the screenshot is about.
 * Use "git push" to push your changes to the remote repository.
 
 ---
