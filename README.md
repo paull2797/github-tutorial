@@ -40,4 +40,9 @@ In order to start using git, you first have to do "git init", which turns the di
 If you ever make a mistake when messing around with files, you can do "git checkout -- (FILE_NAME)" to revert the edits you've made. (The dash in git checkout is double)
 
 ### Undoing Git adds  
-If you accidently added a file(s), you can do git status to find the git command to help you.
+If you accidently added a file(s), you can do git status to find the git command to help you. The command is "git reset HEAD (FILE_NAME)" to unstage the file.
+
+### Undoing commits  
+If you want to undo a commit, you can use "git reset --soft HEAD~1". This will only leave your files and staging area alone, while undoing the commit.
+
+
