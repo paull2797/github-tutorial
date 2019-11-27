@@ -15,7 +15,7 @@ Before you start using Github, you have to create an account. Go to [Github](htt
 ---
 ## Repository Setup
 
-In order to start using git, you first have to do "git init", which turns the directory into a repository. You only have to do this once. After any changes, you do "git add ." to add the changes to the stage. Then, you do "git commit -m "(message)" " to take a screenshot of the files on stage. Make sure the message describes what the screenshot is about. Before you push your changes to Github, you need to set up a remote. Follow the steps below.
+In order to start using git, you first have to do "git init", which turns the directory into a repository. You only have to do this once. After any changes, you do "git add ." to add the changes to the stage. Then, you do "git commit -m "(message)" " to take a screenshot of the files on stage. Before you can push your changes to Github, you need to set up a remote. Follow the steps below.
   
 1.  Go to [Github](github.com) 
 2.  Select your repo
@@ -28,7 +28,11 @@ In order to start using git, you first have to do "git init", which turns the di
 ---
 ## Workflow & Commands
 
-
+* Use git status to see which files that changed since the last commit
+* Use "git add ." to add changes you made to the stage, which allows you to commit it.
+* Use "git commit -m "(message)" " to take a screenshot of the files on stage. The message is used to find the commit. Make sure the message describes what the screenshot is about
+* Use "git push" to push your changes to the remote repository.
 
 ---
 ## Rolling Back Changes
+
