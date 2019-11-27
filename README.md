@@ -36,3 +36,8 @@ In order to start using git, you first have to do "git init", which turns the di
 ---
 ## Rolling Back Changes
 
+### Undoing Edits  
+If you ever make a mistake when messing around with files, you can do "git checkout -- (FILE_NAME)" to revert the edits you've made. (The dash in git checkout is double)
+
+### Undoing Git adds  
+If you accidently added a file(s), you can do git status to find the git command to help you.
