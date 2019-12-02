@@ -21,7 +21,8 @@ In order to start using git, you first have to do "git init", which turns the di
 2. Select your repo
 3. Select clone and download
 4. Make sure it says "Clone with SSH" (to change click use SSH)
-![ScreenShot](github-tutorial-remote-setup.png)  
+![ScreenShot](github-tutorial-remote-setup.png)
+(It should look something like this)
 5. Copy the link and go back to your IDE
 6. Do "git remote add origin (URL) " (The URL should be the link from step 5)
 7. Do "git push -u origin master"
