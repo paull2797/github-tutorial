@@ -15,7 +15,7 @@ Before you start using Github, you have to create an account. Go to [Github](htt
 ---
 ## Repository Setup
 
-In order to start using git, you first have to do "git init", which turns the directory into a repository. You only have to do this once. Before you can commit, you must have editted a file beforehand. You can create a file by using touch (filename) and open it by (c9 filename). Make sure to save your changes! Before you can push your changes to Github, you need to set up a remote. Follow the steps below.
+In order to start using git, you first have to do "git init", which turns the directory into a repository. You only have to do this once. Before you can commit, you must have editted a file beforehand. You can create a file by using touch (filename) and open it by c9 (filename). Make sure to save your changes! Before you can push your changes to Github, you need to set up a remote. Follow the steps below.
   
 1. Go to [Github](github.com) 
 2. Select your repo
